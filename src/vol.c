@@ -2,6 +2,11 @@
 #include <alsa/mixer.h>
 
 
+/**
+ * Set volume
+ *
+ * @param long volume
+ */
 void set_volume(long volume)
 {
     long min, max;
@@ -27,6 +32,11 @@ void set_volume(long volume)
     snd_mixer_close(handle);
 }
 
+/**
+ * Get volume
+ *
+ * @return float
+ */
 float get_volume()
 {
     long min, max, v;
