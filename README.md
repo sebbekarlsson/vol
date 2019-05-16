@@ -4,7 +4,7 @@
 ## Usage
 > To set the volume:
 
-    Usage: vol <volume>
+    vol <volume>
 
 > Note, this command also prints the volume afterwards.
 
