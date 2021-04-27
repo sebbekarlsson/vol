@@ -6,9 +6,9 @@
 
 void print_usage()
 {
-    printf("Usage:\n");
-    printf("  To set volume: vol set <volume>\n");
-    printf("  To get volume: vol get\n");
+    puts("Usage:\n"
+	"  To set volume: vol set <volume>\n"
+	"  To get volume: vol get\n");
 }
 
 int main(int argc, char* argv[])
